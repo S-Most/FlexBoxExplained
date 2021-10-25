@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Flex Explained</title>
+</head>
+<body>
+    <div class="container">
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball select"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+    </div>
+
+    <form action="">
+        <ul>
+            <h2>Flex Properties</h2>
+            <li>
+                <input type="checkbox" name="display" id="display">
+                <label for="display">Display: flex</label>
+            </li>
+            <li>
+                <input type="checkbox" name="direction" id="direction">
+                <label for="direction">Direction (column)</label>
+            </li>
+            <li>
+                <input type="checkbox" name="flexwrap" id="flexwrap">
+                <label for="flexwrap">Flex Wrap</label>
+            </li>
+            <li>
+                <input type="checkbox" name="flexShrink" id="flexShrink">
+                <label for="flexShrink">Flex Shrink</label>
+            </li>
+            <li>
+                <input type="checkbox" name="flexGrow" id="flexGrow">
+                <label for="flexGrow">Flex Grow</label>
+            </li>
+        </ul>
+        <ul>
+            <h2>Justify Content</h2>
+            <li>
+                <input type="radio" name="justify" id="just-start" value="flex-start" checked>
+                <label for="just-start">Flex Start</label>
+            </li>
+            <li>
+                <input type="radio" name="justify" id="just-end" value="flex-end">
+                <label for="just-end">Flex end</label>
+            </li>
+            <li>
+                <input type="radio" name="justify" id="just-center" value="center">
+                <label for="just-center">Flex center</label>
+            </li>
+            <li>
+                <input type="radio" name="justify" id="just-between" value="space-between">
+                <label for="just-between">Space between</label>
+            </li>
+            <li>
+                <input type="radio" name="justify" id="just-evenly" value="space-evenly">
+                <label for="just-evenly">Space evenly</label>
+            </li>
+            <li>
+                <input type="radio" name="justify" id="just-around" value="space-around">
+                <label for="just-around">Space around</label>
+            </li>
+        </ul>
+
+        <ul>
+            <h2>Align Items</h2>
+            <li>
+                <input type="radio" name="align" id="align-start" value="flex-start">
+                <label for="align-start">Flex Start</label>
+            </li>
+            <li>
+                <input type="radio" name="align" id="align-end" value="flex-end">
+                <label for="align-end">Flex end</label>
+            </li>
+            <li>
+                <input type="radio" name="align" id="align-center" value="center">
+                <label for="align-center">Flex center</label>
+            </li>
+            <li>
+                <input type="radio" name="align" id="align-between" value="stretch" checked>
+                <label for="align-between">Stretch</label>
+            </li>
+            <li>
+                <input type="radio" name="align" id="align-baseline" value="baseline">
+                <label for="align-baseline">Baseline</label>
+            </li>
+        </ul>
+        <ul>
+            <h2>Align Self Optie</h2>
+            <li>
+                <input type="radio" name="aliself" id="aliselfst" value="flex-start">
+                <label for="aliselfst">flex-start</label>
+            </li>
+            <li>
+                <input type="radio" name="aliself" id="aliselfce" value="center" checked>
+                <label for="aliselfce">center</label>
+            </li>
+            <li>
+                <input type="radio" name="aliself" id="aliselfen" value="flex-end">
+                <label for="aliselfen">flex-end</label>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
